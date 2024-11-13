@@ -2,3 +2,10 @@
 font-size: 28px;
 font-family: times ;
 }
+.yellow {
+    background-color: yellow;
+}
+.black {
+    background-color: black;
+    color: white;
+}
