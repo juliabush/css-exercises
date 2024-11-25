@@ -19,7 +19,6 @@ body {
 .links {
   display: flex;
   gap: 1rem;
-  
 }
 .profile-image {
   background: rebeccapurple;
@@ -34,7 +33,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  
+  margin-left: 10px;
 }
 
 button {
