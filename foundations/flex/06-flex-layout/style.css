@@ -6,7 +6,22 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
-
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left-links {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 1rem;
+}
+.right-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
 img {
   width: 600px;
 }
