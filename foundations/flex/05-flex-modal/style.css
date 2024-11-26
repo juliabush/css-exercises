@@ -39,6 +39,7 @@ body {
 .header {
   font-size: large;
   text-align: start;
+  margin: 5px;
   
 }
 .hard {
@@ -46,11 +47,14 @@ body {
   flex-direction: row;
   justify-content: space-between;
 }
+.text {
+  margin: 5px;
+}
 .column {
   display: flex;
   flex-direction: column;
   margin-left: 60px;
-  margin-top: -40px;  
+  margin-top: -45px;  
 }
 .close-button {
   background: #eee;
@@ -77,10 +81,15 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  max-width: 100px;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  max-width: 100px;
+}
+.sexy {
+  margin-top: 5px;
 }
