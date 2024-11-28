@@ -22,7 +22,13 @@ body {
   background: royalblue;
   box-sizing: border-box;
 }
-
+ul {
+  list-style-type: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
